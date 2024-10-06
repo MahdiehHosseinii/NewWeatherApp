@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="src/css/styles.css" rel="stylesheet"/>
+    <script src="https://kit.fontawesome.com/438497c513.js" crossorigin="anonymous"></script>
+    <title>weather site</title>
+</head>
+<body>
+<section class="main-container">
+    <header>
+        <h2  class="main-heading">The Weather App</h2>
+        <h3>Check the current weather in your city</h3>
+    </header>
+    <form>
+        <div class="search-input-container">
+            <i class="fa-solid fa-magnifying-glass fa-lg search-icon"></i>
+            <input type="text" placeholder=" " name="Location" class="search-input">
+        </div>
+        <button class="submit-button">
+            <i class="fa-solid fa-location-dot fa-lg location-icon"></i>
+        </button>
+    </form>
+    <div class="search-result-container">
+        <aside class="weather-box">
+            <div class="weather-icon">
+                <i class="fa-solid fa-cloud fa-xl"></i>
+            </div>
+            <div class="temperature-item">
+                <div class="temperature">Temperature
+                    <span class="unit">Unit</span>
+                </div>
+                <span class="condition-text"> , Condition</span>
+            </div>
+        </aside>
+        <div class="wind-humidity-location-container">
+            <div class="weather-result-item wind-item"><i class="fa-solid fa-wind fa-xs icon-in-item"></i> Wind Speed
+            </div>
+            <div class="weather-result-item humidity-item"><i class="fa-solid fa-water fa-xs icon-in-item" style=""></i>
+                Humidity
+            </div>
+            <div class="weather-result-item location-item"><i class="fa-solid fa-location-dot fa-xs icon-in-item"></i>
+                City Name
+            </div>
+        </div>
+    </div>
+</section>
+</body>
+</html>
